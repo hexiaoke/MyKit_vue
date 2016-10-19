@@ -1,26 +1,30 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <login></login>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import login from './components/login/login'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    login
   }
 }
 </script>
 
-<style>
+<style lang="stylus">
+@import './components/styles/common.styl'
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: absolute;;
+  width: 100%;
+  height: 1000px;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
