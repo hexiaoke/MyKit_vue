@@ -16,9 +16,9 @@
       </div>
       <a href="#/index/mykit/register">找回密码</a>
     </div>
-    <button class="btn  login-btn" ng-click="login()"ng-class="{'btn-checked':check()}" ng-disabled="!check()">登陆</button>
+    <button class="btn  login-btn">登陆</button>
     <div class="bottom-link">
-      <a href="#/mykit/register">还没有账户,马上注册</a>
+      <router-link to="/register">还没有账户,马上注册</router-link>
     </div>
   </div>
 </template>
@@ -29,18 +29,8 @@
 <style lang="stylus" scoped>
 @import '../styles/common.styl'
 
-h2
-  width: 400px
-  margin: 0 0 30px
-  font-size: 25px
-  font-weight: 400
-  text-align: center
-  color: #323a45
-
 .login
   generalForm(480px, 380px)
-  input
-    outline: none
 
 .login-input
   generalInput()

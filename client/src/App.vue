@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <login></login>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import login from './components/login/login'
+import register from './components//register/register'
 
 export default {
   name: 'app',
   components: {
-    login
+    login,
+    register
   }
 }
 </script>

@@ -1,7 +1,7 @@
 {
-  "name": "y",
+  "name": "Mykit",
   "version": "1.0.0",
-  "description": "y",
+  "description": "Mykit rebuild by vue",
   "author": "heke <heke0522@163.com>",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
   "dependencies": {
     "stylus": "^0.54.5",
     "stylus-loader": "^2.3.1",
-    "vue": "^2.0.1"
+    "vue": "^2.0.1",
+    "vue-router": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
